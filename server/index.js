@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 require('dotenv').config();
-const pool = require('./Database/Db'); // PostgreSQL pool setup
 const routes = require('./Routes/Router');
 
 // Middleware

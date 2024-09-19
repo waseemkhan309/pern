@@ -1,4 +1,4 @@
-CREATE DATABASE hyphonDb;
+CREATE DATABASE postgres;
 
 CREATE TABLE responses (
     id SERIAL PRIMARY KEY,
